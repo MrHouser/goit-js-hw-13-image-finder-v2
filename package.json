@@ -1,0 +1,35 @@
+{
+  "name": "goit-js-hw-13-image-finder",
+  "version": "1.1.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://mrhouser.github.io/goit-js-hw-13-image-finder-v2",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /goit-js-hw-13-image-finder-v2/",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrHouser/goit-js-hw-13-image-finder-v2"
+  },
+  "keywords": [],
+  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrhouser/goit-js-hw-13-image-finder-v2/issues"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.0",
+    "parcel-bundler": "^1.12.5",
+    "parcel-plugin-handlebars-precompile": "^1.0.2",
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "posthtml-include": "^1.7.1"
+  },
+  "dependencies": {
+    "basiclightbox": "^5.0.4",
+    "bootstrap-icons": "^1.5.0",
+    "lodash.debounce": "^4.0.8",
+    "toastr": "^2.1.4"
+  }
+}
